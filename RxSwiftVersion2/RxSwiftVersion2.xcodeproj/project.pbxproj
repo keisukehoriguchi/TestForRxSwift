@@ -14,6 +14,8 @@
 		0498AC9D269394A2003372A4 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0498AC9C269394A2003372A4 /* ThirdViewController.xib */; };
 		0498ACA226939D35003372A4 /* WKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498ACA126939D35003372A4 /* WKWebViewController.swift */; };
 		0498ACA426939D47003372A4 /* WKWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0498ACA326939D47003372A4 /* WKWebViewController.xib */; };
+		0498ACA72693A955003372A4 /* RxWKWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0498ACA62693A955003372A4 /* RxWKWebViewController.xib */; };
+		0498ACAA2693A974003372A4 /* RxWKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498ACA92693A974003372A4 /* RxWKWebViewController.swift */; };
 		04A170332692EFE6003622EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A170322692EFE6003622EB /* AppDelegate.swift */; };
 		04A170352692EFE6003622EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A170342692EFE6003622EB /* SceneDelegate.swift */; };
 		04A170372692EFE6003622EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A170362692EFE6003622EB /* ViewController.swift */; };
@@ -54,6 +56,8 @@
 		0498AC9C269394A2003372A4 /* ThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
 		0498ACA126939D35003372A4 /* WKWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewController.swift; sourceTree = "<group>"; };
 		0498ACA326939D47003372A4 /* WKWebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WKWebViewController.xib; sourceTree = "<group>"; };
+		0498ACA62693A955003372A4 /* RxWKWebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxWKWebViewController.xib; sourceTree = "<group>"; };
+		0498ACA92693A974003372A4 /* RxWKWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxWKWebViewController.swift; sourceTree = "<group>"; };
 		04A1702F2692EFE6003622EB /* RxSwiftVersion2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftVersion2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A170322692EFE6003622EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04A170342692EFE6003622EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,7 +120,8 @@
 		0498AC9E26939CE7003372A4 /* WebView */ = {
 			isa = PBXGroup;
 			children = (
-				0498ACA026939D0C003372A4 /* Original */,
+				0498ACA52693A90B003372A4 /* RxSwift */,
+				0498ACA026939D0C003372A4 /* Original(KVO) */,
 			);
 			path = WebView;
 			sourceTree = "<group>";
@@ -131,13 +136,22 @@
 			path = JustCounter;
 			sourceTree = "<group>";
 		};
-		0498ACA026939D0C003372A4 /* Original */ = {
+		0498ACA026939D0C003372A4 /* Original(KVO) */ = {
 			isa = PBXGroup;
 			children = (
 				0498ACA126939D35003372A4 /* WKWebViewController.swift */,
 				0498ACA326939D47003372A4 /* WKWebViewController.xib */,
 			);
-			path = Original;
+			path = "Original(KVO)";
+			sourceTree = "<group>";
+		};
+		0498ACA52693A90B003372A4 /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				0498ACA62693A955003372A4 /* RxWKWebViewController.xib */,
+				0498ACA92693A974003372A4 /* RxWKWebViewController.swift */,
+			);
+			path = RxSwift;
 			sourceTree = "<group>";
 		};
 		04A170262692EFE5003622EB = {
@@ -362,6 +376,7 @@
 				04A170A32692FCBB003622EB /* ViewController.xib in Resources */,
 				0498ACA426939D47003372A4 /* WKWebViewController.xib in Resources */,
 				0498AC9D269394A2003372A4 /* ThirdViewController.xib in Resources */,
+				0498ACA72693A955003372A4 /* RxWKWebViewController.xib in Resources */,
 				04A1703C2692EFEA003622EB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -493,6 +508,7 @@
 				04A170B926934ADF003622EB /* Delegate.swift in Sources */,
 				04A170BB26934B92003622EB /* Presenter.swift in Sources */,
 				0498AC9B26939454003372A4 /* ThirdViewController.swift in Sources */,
+				0498ACAA2693A974003372A4 /* RxWKWebViewController.swift in Sources */,
 				04A170372692EFE6003622EB /* ViewController.swift in Sources */,
 				04A170A5269302EE003622EB /* CounterViewModel.swift in Sources */,
 				04A170BE26934FA5003622EB /* ProtcolAndStruct.swift in Sources */,

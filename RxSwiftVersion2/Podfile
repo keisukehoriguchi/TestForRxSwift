@@ -8,6 +8,7 @@ target 'RxSwiftVersion2' do
   # Pods for RxSwiftVersion2
     pod 'RxSwift', '6.2.0'
     pod 'RxCocoa', '6.2.0'
+    pod 'RxOptional'
 
   target 'RxSwiftVersion2Tests' do
     inherit! :search_paths
