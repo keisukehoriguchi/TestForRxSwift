@@ -17,3 +17,8 @@ struct CounterViewModelInput {
 protocol CounterViewModelOutput {
     var counterText: Driver<String?> { get }
 }
+
+protocol CounterViewModelType {
+    var outputs: CounterViewModelOutput? { get }
+    func setup(input: CounterViewModelInput)
+}

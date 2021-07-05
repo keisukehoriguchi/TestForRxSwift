@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		02775E48C80CF97FE3FC70A7 /* Pods_RxSwiftVersion2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9097AC5C915C842E4F16A105 /* Pods_RxSwiftVersion2.framework */; };
 		02875B7872DB3BFC130A4F70 /* Pods_RxSwiftVersion2_RxSwiftVersion2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBEF81804943C183DF3B7A0 /* Pods_RxSwiftVersion2_RxSwiftVersion2UITests.framework */; };
+		0498AC9926939049003372A4 /* CounterRxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498AC9826939049003372A4 /* CounterRxViewModel.swift */; };
+		0498AC9B26939454003372A4 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498AC9A26939454003372A4 /* ThirdViewController.swift */; };
+		0498AC9D269394A2003372A4 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0498AC9C269394A2003372A4 /* ThirdViewController.xib */; };
+		0498ACA226939D35003372A4 /* WKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0498ACA126939D35003372A4 /* WKWebViewController.swift */; };
+		0498ACA426939D47003372A4 /* WKWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0498ACA326939D47003372A4 /* WKWebViewController.xib */; };
 		04A170332692EFE6003622EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A170322692EFE6003622EB /* AppDelegate.swift */; };
 		04A170352692EFE6003622EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A170342692EFE6003622EB /* SceneDelegate.swift */; };
 		04A170372692EFE6003622EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A170362692EFE6003622EB /* ViewController.swift */; };
@@ -44,6 +49,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0498AC9826939049003372A4 /* CounterRxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterRxViewModel.swift; sourceTree = "<group>"; };
+		0498AC9A26939454003372A4 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		0498AC9C269394A2003372A4 /* ThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		0498ACA126939D35003372A4 /* WKWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewController.swift; sourceTree = "<group>"; };
+		0498ACA326939D47003372A4 /* WKWebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WKWebViewController.xib; sourceTree = "<group>"; };
 		04A1702F2692EFE6003622EB /* RxSwiftVersion2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftVersion2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A170322692EFE6003622EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04A170342692EFE6003622EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +113,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0498AC9E26939CE7003372A4 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				0498ACA026939D0C003372A4 /* Original */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		0498AC9F26939CFB003372A4 /* JustCounter */ = {
+			isa = PBXGroup;
+			children = (
+				04A170BC26934F10003622EB /* RxSwift */,
+				04A170B32693497D003622EB /* Delegate */,
+				04A170B226934966003622EB /* Callback */,
+			);
+			path = JustCounter;
+			sourceTree = "<group>";
+		};
+		0498ACA026939D0C003372A4 /* Original */ = {
+			isa = PBXGroup;
+			children = (
+				0498ACA126939D35003372A4 /* WKWebViewController.swift */,
+				0498ACA326939D47003372A4 /* WKWebViewController.xib */,
+			);
+			path = Original;
+			sourceTree = "<group>";
+		};
 		04A170262692EFE5003622EB = {
 			isa = PBXGroup;
 			children = (
@@ -130,9 +167,8 @@
 			children = (
 				04A170322692EFE6003622EB /* AppDelegate.swift */,
 				04A170342692EFE6003622EB /* SceneDelegate.swift */,
-				04A170BC26934F10003622EB /* RxSwift */,
-				04A170B32693497D003622EB /* Delegate */,
-				04A170B226934966003622EB /* Callback */,
+				0498AC9F26939CFB003372A4 /* JustCounter */,
+				0498AC9E26939CE7003372A4 /* WebView */,
 				04A1703B2692EFEA003622EB /* Assets.xcassets */,
 				04A1703D2692EFEA003622EB /* LaunchScreen.storyboard */,
 				04A170402692EFEA003622EB /* Info.plist */,
@@ -183,6 +219,9 @@
 			isa = PBXGroup;
 			children = (
 				04A170BD26934FA5003622EB /* ProtcolAndStruct.swift */,
+				0498AC9826939049003372A4 /* CounterRxViewModel.swift */,
+				0498AC9A26939454003372A4 /* ThirdViewController.swift */,
+				0498AC9C269394A2003372A4 /* ThirdViewController.xib */,
 			);
 			path = RxSwift;
 			sourceTree = "<group>";
@@ -321,6 +360,8 @@
 				04A170B52693499C003622EB /* SecondViewController.xib in Resources */,
 				04A1703F2692EFEA003622EB /* LaunchScreen.storyboard in Resources */,
 				04A170A32692FCBB003622EB /* ViewController.xib in Resources */,
+				0498ACA426939D47003372A4 /* WKWebViewController.xib in Resources */,
+				0498AC9D269394A2003372A4 /* ThirdViewController.xib in Resources */,
 				04A1703C2692EFEA003622EB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,12 +492,15 @@
 			files = (
 				04A170B926934ADF003622EB /* Delegate.swift in Sources */,
 				04A170BB26934B92003622EB /* Presenter.swift in Sources */,
+				0498AC9B26939454003372A4 /* ThirdViewController.swift in Sources */,
 				04A170372692EFE6003622EB /* ViewController.swift in Sources */,
 				04A170A5269302EE003622EB /* CounterViewModel.swift in Sources */,
 				04A170BE26934FA5003622EB /* ProtcolAndStruct.swift in Sources */,
 				04A170332692EFE6003622EB /* AppDelegate.swift in Sources */,
 				04A170B7269349DE003622EB /* SecondViewController.swift in Sources */,
 				04A170352692EFE6003622EB /* SceneDelegate.swift in Sources */,
+				0498AC9926939049003372A4 /* CounterRxViewModel.swift in Sources */,
+				0498ACA226939D35003372A4 /* WKWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
