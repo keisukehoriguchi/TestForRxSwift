@@ -3,18 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		047C54C9267B331F00DDE47D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C54C8267B331F00DDE47D /* AppDelegate.swift */; };
 		047C54CB267B331F00DDE47D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C54CA267B331F00DDE47D /* SceneDelegate.swift */; };
 		047C54CD267B331F00DDE47D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C54CC267B331F00DDE47D /* ViewController.swift */; };
-		047C54D0267B331F00DDE47D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047C54CE267B331F00DDE47D /* Main.storyboard */; };
 		047C54D2267B332300DDE47D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047C54D1267B332300DDE47D /* Assets.xcassets */; };
 		047C54D5267B332300DDE47D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047C54D3267B332300DDE47D /* LaunchScreen.storyboard */; };
 		047C54E0267B332400DDE47D /* TestForRxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C54DF267B332400DDE47D /* TestForRxSwiftTests.swift */; };
 		047C54EB267B332400DDE47D /* TestForRxSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047C54EA267B332400DDE47D /* TestForRxSwiftUITests.swift */; };
+		04A170632692F505003622EB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A170622692F505003622EB /* ViewController.xib */; };
 		04AB0635268C700D0008EEBB /* SampleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AB0634268C700D0008EEBB /* SampleViewModel.swift */; };
 		0E51339EBC4AFBF60C0BE7B8 /* Pods_TestForRxSwift_TestForRxSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7F64E130C424EB9127581A /* Pods_TestForRxSwift_TestForRxSwiftUITests.framework */; };
 		2BABABC3E1868A51D3FD2BEB /* Pods_TestForRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9C9EA4AAC514DC0FB080AA /* Pods_TestForRxSwift.framework */; };
@@ -43,7 +43,6 @@
 		047C54C8267B331F00DDE47D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		047C54CA267B331F00DDE47D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		047C54CC267B331F00DDE47D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		047C54CF267B331F00DDE47D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		047C54D1267B332300DDE47D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047C54D4267B332300DDE47D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		047C54D6267B332300DDE47D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		047C54E6267B332400DDE47D /* TestForRxSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestForRxSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		047C54EA267B332400DDE47D /* TestForRxSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestForRxSwiftUITests.swift; sourceTree = "<group>"; };
 		047C54EC267B332400DDE47D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A170622692F505003622EB /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		04AB0634268C700D0008EEBB /* SampleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewModel.swift; sourceTree = "<group>"; };
 		0E7D3072FC4E84176DEF7FA6 /* Pods-TestForRxSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestForRxSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-TestForRxSwiftTests/Pods-TestForRxSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0EDB57018955F51D81C80199 /* Pods-TestForRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestForRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-TestForRxSwift/Pods-TestForRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 				047C54CA267B331F00DDE47D /* SceneDelegate.swift */,
 				047C54CC267B331F00DDE47D /* ViewController.swift */,
 				04AB0634268C700D0008EEBB /* SampleViewModel.swift */,
-				047C54CE267B331F00DDE47D /* Main.storyboard */,
+				04A170622692F505003622EB /* ViewController.xib */,
 				047C54D1267B332300DDE47D /* Assets.xcassets */,
 				047C54D3267B332300DDE47D /* LaunchScreen.storyboard */,
 				047C54D6267B332300DDE47D /* Info.plist */,
@@ -158,7 +158,6 @@
 				0E7D3072FC4E84176DEF7FA6 /* Pods-TestForRxSwiftTests.debug.xcconfig */,
 				B2708FE3217D6A662C0D5F40 /* Pods-TestForRxSwiftTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -282,8 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				047C54D5267B332300DDE47D /* LaunchScreen.storyboard in Resources */,
+				04A170632692F505003622EB /* ViewController.xib in Resources */,
 				047C54D2267B332300DDE47D /* Assets.xcassets in Resources */,
-				047C54D0267B331F00DDE47D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,14 +466,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		047C54CE267B331F00DDE47D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				047C54CF267B331F00DDE47D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		047C54D3267B332300DDE47D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
